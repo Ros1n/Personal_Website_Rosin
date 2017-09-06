@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Personal Web Demo</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./layui/css/layui.css">
+  <link rel="stylesheet" href="./layui/layui.js">
+
+</head>
+<body>
+<script src="./layui/layui.js"></script>
+	<!-- Header implement -->
+    <header class="main-header layui-bg-cyan" role="banner">
+    <h1 style="padding: 10px;">Xin Luo</h1>
+    <ul class="header-details">
+		<li><span class="social fa fa-skype"> </span>+64211500553</li>
+		<li><span class="social fa fa-envelope-o"> </span>xluo@protonmail.com</li>
+		<li><span class="social fa fa-linkedin"> </span>+64211500553</li>
+		<li><span class="social fa fa-github-square"> </span>+64211500553</li>
+    </ul>
+
+   <!--<img src="banner.jpg" style="width: 100%;" alt="banner-img" />-->    
+  </header>
+
+  <!-- vertical-sidebar implement -->
+<ul class="layui-nav layui-bg-cyan" lay-filter="">
+  <li class="layui-nav-item" lay-filter="tab1"><a href="index3.html">Main Page</a></li>
+  <li class="layui-nav-item layui-this"><a href="">My Blog</a></li>
+  <li class="layui-nav-item "><a href="">start a Chat</a></li>
+  <li class="layui-nav-item"><a href="">Mahine Learning</a></li>
+  <li class="layui-nav-item">
+    <a href="">Technology Tree</a>
+    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+      <dd><a href="">aaaaa</a></dd>
+      <dd><a href="">bbbb</a></dd>
+      <dd><a href="">cccc</a></dd>
+    </dl>
+  </li>
+</ul>
+
+  <!-- horizontal-sidebar implment -->
+<div class="layui-side horizontal-sidebar layui-bg-cyan">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <p style="font-size: 25px"> Technologies</p>
+  <div class="tech-strength">
+    <p class="tech-name">Java</p> 
+  <span id="parallelogram1"></span> <span id="parallelogram1"></span> <span id="parallelogram2"></span> <span id="parallelogram2"></span>
+  </div>
+  <div class="tech-strength">
+    <p class="tech-name">Python</p> 
+  <span id="parallelogram1"></span> <span id="parallelogram1"></span> <span id="parallelogram2"></span> <span id="parallelogram2"></span>
+  </div>
+  <div class="tech-strength">
+    <p class="tech-name">C#</p> 
+  <span id="parallelogram1"></span> <span id="parallelogram1"></span> <span id="parallelogram2"></span> <span id="parallelogram2"></span>
+  </div>
+  <div class="tech-strength">
+    <p class="tech-name">SQL</p> 
+  <span id="parallelogram1"></span> <span id="parallelogram1"></span> <span id="parallelogram2"></span> <span id="parallelogram2"></span>
+  </div>
+  <div class="tech-strength">
+    <p class="tech-name">Xamarin</p>
+  <span id="parallelogram1"></span> <span id="parallelogram1"></span> <span id="parallelogram2"></span> <span id="parallelogram2"></span>
+  </div> 
+  <div class="tech-strength">
+    <p class="tech-name">Azure</p> 
+  <span id="parallelogram1"></span> <span id="parallelogram1"></span> <span id="parallelogram2"></span> <span id="parallelogram2"></span>
+  </div>
+</div>
+
+<script>
+layui.config({
+  base: './js/modules/' //你存放新模块的目录，注意，不是layui的模块目录
+}).use('index'); //加载入口
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* for head */
+
+
+	#intro, #techs, #hobby{
+		padding: 15px;
+	}
+
+	.main-header{
+		display: block;
+		position: relative;
+		color: #b8c7ce;
+		height: 150px;
+		width: 100%;
+		text-align: left;
+		z-index: 1000;
+
+	}
+
+	.layui-side{
+		right: 0;
+	}
+
+	img{
+		float:right;
+		margin:5px;
+	}
+
+	p{
+		color: #b8c7ce;
+		font-size: 150%;
+		text-align: left;
+	}
+
+	.horizontal-sidebar{
+		position: relative;
+		padding: 5px;
+		border: 5px;
+		display: block;
+		float: right;
+		color: #b8c7ce;
+		z-index: 500;
+		width: 250px;
+		height: 100%;
+	}
+
+	.layui-nav-item{
+		color: #b8c7ce;
+	}
+
+	.social{
+		margin-right: 7px;
+		text-align: right;
+		padding: 5px;
+	}
+
+	.header-details{
+		float: right;
+		position: relative;
+		padding: 10px;
+	}
+
+	.tech-name{
+		display: block;
+		text-align: left;
+		font-size: 18px;
+		padding: 2px;
+	}
+
+	.tech-strength{
+		margin-bottom: 2px;
+		margin-left: 5px;
+		display: block;
+		white-space:nowrap;
+
+	}
+
+	#parallelogram1 {
+	display: inline-block;
+	white-space:nowrap;
+    width: 19px;
+    height: 19px;
+    background: rgb(255,255,255);
+    -webkit-transform: skew(150deg);
+
+} 
+
+	#parallelogram2 {
+	display: inline-block;
+	white-space:nowrap;
+    width: 19px;
+    height: 19px;
+    background: rgb(104,117,141);
+    -webkit-transform: skew(150deg);
+} 
+
+	.calendar{
+		display: block;
+		margin-top: 10px; 
+		margin-bottom: 10px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
