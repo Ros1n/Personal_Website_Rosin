@@ -1,18 +1,23 @@
 /* for head */
 
 
-	#intro, #techs, #hobby{
-		padding: 15px;
+	#intro, #techs, #interest{
+		padding: 10px;
 	}
+
+ 	.layui-header{
+ 		display: block;
+ 		background-color: #b8c7ce;
+ 	}
 
 	.main-header{
 		display: block;
 		position: relative;
 		color: #b8c7ce;
-		height: 150px;
+		height: 70px;
 		width: 100%;
 		text-align: left;
-		z-index: 1000;
+		z-index: 900;
 
 	}
 
@@ -25,22 +30,17 @@
 		margin:5px;
 	}
 
-	p{
-		color: #b8c7ce;
-		font-size: 150%;
-		text-align: left;
-	}
 
-	.horizontal-sidebar{
+	#horizontal-sidebar{
 		position: relative;
+		top:0px;
 		padding: 5px;
-		border: 5px;
 		display: block;
 		float: right;
 		color: #b8c7ce;
 		z-index: 500;
-		width: 250px;
-		height: 100%;
+		width: 330px;
+		height: auto;
 	}
 
 	.layui-nav-item{
@@ -56,7 +56,8 @@
 	.header-details{
 		float: right;
 		position: relative;
-		padding: 10px;
+		padding: 5px;
+		margin: 10px;
 	}
 
 	.tech-name{
@@ -68,13 +69,13 @@
 
 	.tech-strength{
 		margin-bottom: 2px;
-		margin-left: 5px;
+		margin-left: 10px;
 		display: block;
 		white-space:nowrap;
 
 	}
 
-	#parallelogram1 {
+	#parallelogram2 {
 	display: inline-block;
 	white-space:nowrap;
     width: 19px;
@@ -84,7 +85,7 @@
 
 } 
 
-	#parallelogram2 {
+	#parallelogram1 {
 	display: inline-block;
 	white-space:nowrap;
     width: 19px;
@@ -93,10 +94,41 @@
     -webkit-transform: skew(150deg);
 } 
 
-	.calendar{
+	#layui-laydate1, #calendar{
 		display: block;
-		margin-top: 10px; 
-		margin-bottom: 10px;
-		margin-left: 5px;
-		margin-right: 5px;
+		width: 300px;
+		margin: 5px;
+	}
+
+	#animation{
+		display: block;
+		position: relative;
+	}
+
+	#left-sidebar{
+		display: block;
+		float: left;
+		position: relative;
+		height: 100%;
+		width: 50px;
+		background-color: red;
+	}
+
+	p{
+		display: block;
+		position: relative;
+		text-align: left;
+		font-family:  'Roboto Condensed', "Times New Roman", Georgia, Serif;
+		font-size: 20px;
+		
+	}
+
+	ul#list{
+		list-style-type: disc;
+		font-size: 20px;
+		font-family:  'Roboto Condensed', "Times New Roman", Georgia, Serif;
+	}
+
+	li{
+		list-style: disc; 
 	}
