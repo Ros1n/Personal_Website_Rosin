@@ -1,6 +1,6 @@
 # Personal_Website_Rosin(v1.0)
 
-This is a personal website based on HTML + CSS + JS, runs on Azure server wtih Azure App services. You can visit it by entering URL: http://pwpwebapp.azurewebsites.net(Thanks for Microsoft and Azure to let me used a free domain name!). The main goal for this website is to create a blog for recording my lastest learning, and reinventing wheels to test my knowledge.
+This is a personal website based on HTML + CSS + JS, runs on Azure server wtih Azure App services. You can visit it by entering URL: http://pwpwebapp.azurewebsites.net (Thanks for Microsoft and Azure to let me used a free domain name!). The main goal for this website is to create a blog for recording my lastest learning, and reinventing wheels to test my knowledge.
 
 ## Reference
 *The most useful framework that helps me a lot is Layui. It provides basic layout and sidebar for me to fill the content. You are welcome to visit their website: http://www.layui.com/.
