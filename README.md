@@ -11,5 +11,5 @@ This is a personal website based on HTML + CSS + JS, runs on Azure server wtih A
 The MAIN function Blog page, chat page, machine learning(currently learning it) and technology tree are still not finished. I will uoload them as soon as I finished.
 
 ## License
-Feel free to clone and edit any bits of my code. I don't think this project has anything worth to refer, there are already many awwsome template in the world.
+Feel free to clone and edit any bits of my code. I don't think this project has anything worth to refer, there are already many awsome template in the world.
 
