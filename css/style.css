@@ -39,8 +39,9 @@
 		float: right;
 		color: #b8c7ce;
 		z-index: 500;
-		width: 330px;
+		width: 22%;
 		height: auto;
+		overflow: hidden;
 	}
 
 	.layui-nav-item{
@@ -131,4 +132,20 @@
 
 	li{
 		list-style: disc; 
+	}
+
+	#main-area{
+		display: block;
+		overflow: auto;
+		z-index: 1002;
+	}
+
+	@media only screen and (max-width:  768px){
+		#horizontal-sidebar{
+			display: none;
+		}
+		#main-area{
+			margin-right: 0;
+		}
+
 	}
