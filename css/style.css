@@ -1,7 +1,7 @@
 /* for head */
 
 
-	#intro, #techs, #interest{
+	.intro, .techs, .interest{
 		padding: 10px;
 	}
 
@@ -43,6 +43,7 @@
 		height: auto;
 		overflow: hidden;
 	}
+
 
 	.layui-nav-item{
 		color: #b8c7ce;
@@ -140,10 +141,28 @@
 		z-index: 1002;
 	}
 
+    #mobile-res{
+        display:none;
+    }
+
+
 	@media only screen and (max-width:  768px){
 		#horizontal-sidebar{
 			display: none;
 		}
+        .layui-header{
+            display:none;
+        }
+        .header-details{
+            display:none;
+        }
+        #mobile-res {
+            position: relative;
+            display: inline-block;
+            background-color: #23262E;
+            float: right;
+            width: 100%;
+        }
 		#main-area{
 			margin-right: 0;
 		}
