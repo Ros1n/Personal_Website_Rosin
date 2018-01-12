@@ -2,7 +2,13 @@
 
 
 	.intro, .techs, .interest{
+		font-family: 'Playfair Display', serif;
 		padding: 10px;
+	}
+
+	.p-title{
+		font-family: 'Playfair Display', serif;
+		font-size: 30px;
 	}
 
  	.layui-header{
@@ -37,7 +43,8 @@
 		padding: 5px;
 		display: block;
 		float: right;
-		color: #b8c7ce;
+		color: white;
+		background-color: #23262E;
 		z-index: 500;
 		width: 22%;
 		height: auto;
@@ -116,6 +123,10 @@
 		background-color: red;
 	}
 
+	#emphasis{
+		color:#009688;
+	}
+
 	p{
 		display: block;
 		position: relative;
@@ -125,24 +136,32 @@
 		
 	}
 
-	ul#list{
-		list-style-type: disc;
+	li, ul{
+		list-style: disc !important;
 		font-size: 20px;
 		font-family:  'Roboto Condensed', "Times New Roman", Georgia, Serif;
-	}
-
-	li{
-		list-style: disc; 
 	}
 
 	#main-area{
 		display: block;
 		overflow: auto;
 		z-index: 1002;
+		height: 100%;
 	}
 
     #mobile-res{
         display:none;
+    }
+
+    .highlighter-rouge{
+    	font-family: 'PT Mono', sans-serif;
+		font-family:  'Roboto Condensed', "Times New Roman", Georgia, Serif;
+    	color: #23262E;
+    	font-size: 20px;
+    }
+
+    code{
+    	background-color: #bdcadb;
     }
 
 

@@ -2,8 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Personal Web Demo</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 shrink-to-fit=no">
+  <title>Xin Luo Personal Web</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
@@ -18,30 +19,32 @@
 	<!-- banner implement -->
    <header class="main-header layui-bg-cyan">
        <div class="layui-logo" style="font-weight: bold; font-size: 300%">Xin Luo</div>
-    <ul class="header-details">
-		<li><span class="social fa fa-skype"> </span>xluo@protonmail.com</li>
-    </ul> 
-    <ul class="header-details">
-		<li><span class="social fa fa-phone"> </span>+64211500553</li>
-		<li><span class="social fa fa-envelope-o"> </span>xluo@protonmail.com</li>
-    </ul>
-    <ul class="header-details">
-		<li><span class="social fa fa-linkedin"> </span>https://www.linkedin.com/in/xin-luo-b44988119/</li>
-		<li><span class="social fa fa-github-square"> </span>https://github.com/Ros1n</li>    	
-    </ul> 
+       <div>
+           <ul class="header-details">
+               <li><span class="social fa fa-skype"> </span>xluo@protonmail.com</li>
+           </ul>
+           <ul class="header-details">
+               <li><span class="social fa fa-phone"> </span>+64211500553</li>
+               <li><span class="social fa fa-envelope-o"> </span>xluo@protonmail.com</li>
+           </ul>
+           <ul class="header-details">
+               <li><span class="social fa fa-linkedin"> </span>https://www.linkedin.com/in/xin-luo-b44988119/</li>
+               <li><span class="social fa fa-github-square"> </span>https://github.com/Ros1n</li>
+           </ul>
+       </div>
     </header>
 
-  <!-- header implement -->
+    <!-- header implement -->
 	<div class="layui-header">
-	<div class="layui-logo" style="display: block;"><img src="http://t.cn/RCzsdCq" class="layui-nav-img">This is My Website!</div>
+	<div class="layui-logo" style="display: block;"><img src="./xl.PNG" class="layui-nav-img" style="height:38px; width:38px;">This is My Website!</div>
   <!-- vertical-sidebar implement -->
-	<ul class="layui-nav layui-layout-left" lay-filter="">
-   <li class="layui-nav-item layui-this" lay-filter="tab1"><a href="index.html">Main Page</a></li>
+<ul class="layui-nav layui-layout-left" lay-filter="">
+  <li class="layui-nav-item layui-this" lay-filter="tab1"><a href="">Main Page</a></li>
   <li class="layui-nav-item"><a href="my_blog.html">My Blog</a></li>
-  <li class="layui-nav-item "><a href="start_chat.html">start a Chat</a></li>
+  <li class="layui-nav-item "><a href="start_chat.html">Projects</a></li>
   <li class="layui-nav-item"><a href="machine_learning.html">Mahine Learning</a></li>
   <li class="layui-nav-item">
-    <a href="">Technology Tree</a>
+    <a href="technology_tree.html">Technology Tree</a>
     <!--<dl class="layui-nav-child"> 
       <dd><a href="">a</a></dd>
       <dd><a href="">b</a></dd>
@@ -51,90 +54,114 @@
 	</ul>
 	</div>
 
-	<div class="layui-side layui-bg-cyan" id="horizontal-sidebar">
 
-	<p style="font-size: 27px; margin: 5px; font-weight: bold;"> Core Professional Skills</p>
-	<div class="tech-strength">
-		<p class="tech-name">Java</p> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span>
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span>
-	</div>
-	<div class="tech-strength">
-		<p class="tech-name">Python</p> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span>
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span>
-	</div>
-	<div class="tech-strength">
-		<p class="tech-name">HTML+CSS+JS</p> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span>
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span>
-	</div>
-	<div class="tech-strength">
-		<p class="tech-name">C#</p> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram1"></span>
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span>
-	</div>
-	<div class="tech-strength">
-		<p class="tech-name">SQL</p>
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram2"></span>
-	<span id="parallelogram2"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span> 
-	<span id="parallelogram1"></span>
-	</div>
-	<br>
-	<div id="calendar"></div>
-	<br>
-	<div id="animation">
-	<p>Try to feed the rat with your mose!</p>
-	<p style="margin: 3px;">
-		<embed src="http://cdn.abowman.com/widgets/hamster/hamster.swf" type="application/x-shockwave-flash" width="300" height="220" quality="high"></embed>
-	</p>
-	</div>
-</div>
 
-  <div class="layui-body" >
-    <!-- 内容主体区域 -->
-    <div style="padding: 30px; background-color: #eeeeee; margin-left: 30px;">
-    	<p style="font-size: 27px; font-style: oblique; font-weight: bold;">Hi! This page is haven't finish, please wait for blogger to upload.
+    <img class="main-background" src="http://logicx24.github.io/images/bythewatersofbabylon.jpg" style="width:100%; margin:0px" alt="background">
 
+    <div class="layui-body" style="overflow:inherit">
+
+        <div class="layui-side" id="horizontal-sidebar">
+
+            <p style="font-size: 27px; margin: 5px; font-weight: bold;"> Core Professional Skills</p>
+            <div class="tech-strength">
+                <p class="tech-name">Java</p>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+            </div>
+            <div class="tech-strength">
+                <p class="tech-name">Python</p>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+            </div>
+            <div class="tech-strength">
+                <p class="tech-name">C#</p>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+            </div>
+            <div class="tech-strength">
+                <p class="tech-name">JavaScript</p>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+            </div>
+            <div class="tech-strength">
+                <p class="tech-name">HTML</p>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram2"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+                <span id="parallelogram1"></span>
+            </div>
+
+            <br>
+            <div id="calendar"></div>
+            <br>
+            <div id="animation">
+                <p>Try to feed the rat with your mose!</p>
+                <p style="margin: 3px;">
+                    <embed src="http://cdn.abowman.com/widgets/hamster/hamster.swf" type="application/x-shockwave-flash" width="300" height="220" quality="high"></embed>
+                </p>
+            </div>
+        </div>
+
+        <ul class="layui-nav layui-nav-tree layui-inline" id="mobile-res" lay-filter="demo">
+            <li class="layui-nav-item" style="float:right;">
+                <a href="javascript:;" style="float:right;"><img src="./xl.PNG" class="layui-nav-img">☰</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">Core Skills</a></dd>
+                    <dd><a href="">My Blog</a></dd>
+                    <dd><a href="">Start a Chat</a></dd>
+                    <dd><a href="">Machine Learning</a></dd>
+                    <dd><a href="">Technology Tree</a></dd>
+
+                </dl>
+            </li>
+        </ul>
+                <!-- 内容主体区域 -->
+                <div class="layui-bg-cyan" id="main-area" style="padding: 30px;">
+ 
+                </div>
+
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+        ©Copyright 2017-?
     </div>
-  </div>
-  
-  <div class="layui-footer">
-    <!-- 底部固定区域 -->
-    ©Copyright 2017-?
-  </div>
-
 </div>
+  
+
+
+
+
 <script src="./layui/layui.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <script>
 layui.config({
   base: './js/modules/' //你存放新模块的目录，注意，不是layui的模块目录
