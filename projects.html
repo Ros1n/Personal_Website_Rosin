@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./layui/css/layui.css">
     <link rel="stylesheet" href="./layui/layui.js">
+    <link href="./css/fontello.css" type="text/css" rel="stylesheet">
+    <!--<link href="./css/icons.css" type="text/css" rel="stylesheet">-->
+    <link rel="stylesheet" href="./css/entypo.css">
 
 </head>
 
@@ -19,38 +22,16 @@
         <!-- banner implement -->
         <header class="main-header layui-bg-cyan">
             <div class="layui-logo" style="font-weight: bold; font-size: 300%">Xin Luo</div>
-            <div>
-                <ul class="header-details">
-                    <li><span class="social fa fa-skype"> </span>xluo@protonmail.com</li>
-                </ul>
-                <ul class="header-details">
-                    <li><span class="social fa fa-phone"> </span>+64211500553</li>
-                    <li><span class="social fa fa-envelope-o"> </span>xluo@protonmail.com</li>
-                </ul>
-                <ul class="header-details">
-                    <li><span class="social fa fa-linkedin"> </span>https://www.linkedin.com/in/xin-luo-b44988119/</li>
-                    <li><span class="social fa fa-github-square"> </span>https://github.com/Ros1n</li>
-                </ul>
-            </div>
         </header>
 
         <!-- header implement -->
         <div class="layui-header">
-            <div class="layui-logo" style="display: block;"><img src="./xl.PNG" class="layui-nav-img" style="height:38px; width:38px;">This is My Website!</div>
+            <div class="layui-logo" style="display: block;"><img src="./img/xl.PNG" class="layui-nav-img" style="height:38px; width:38px;">This is My Website!</div>
             <!-- vertical-sidebar implement -->
             <ul class="layui-nav layui-layout-left" lay-filter="">
-                <li class="layui-nav-item layui-this" lay-filter="tab1"><a href="">Main Page</a></li>
+                <li class="layui-nav-item" lay-filter="index.html"><a href="index.html">Main Page</a></li>
                 <li class="layui-nav-item"><a href="my_blog.html">My Blog</a></li>
-                <li class="layui-nav-item "><a href="start_chat.html">Projects</a></li>
-                <li class="layui-nav-item"><a href="machine_learning.html">Mahine Learning</a></li>
-                <li class="layui-nav-item">
-                    <a href="technology_tree.html">Technology Tree</a>
-                    <!--<dl class="layui-nav-child">
-                      <dd><a href="">a</a></dd>
-                      <dd><a href="">b</a></dd>
-                      <dd><a href="">c</a></dd>
-                    </dl>-->
-                </li>
+                <li class="layui-nav-item layui-this"><a href="projects.html">Projects</a></li>
             </ul>
         </div>
 
@@ -71,6 +52,8 @@
                     <span id="parallelogram2"></span>
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
+                    <span id="parallelogram1"></span>
+                    <span id="parallelogram1"></span>
                 </div>
                 <div class="tech-strength">
                     <p class="tech-name">Python</p>
@@ -82,6 +65,8 @@
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
+                    <span id="parallelogram1"></span>
+                    <span id="parallelogram1"></span>
                 </div>
                 <div class="tech-strength">
                     <p class="tech-name">C#</p>
@@ -89,6 +74,8 @@
                     <span id="parallelogram2"></span>
                     <span id="parallelogram2"></span>
                     <span id="parallelogram2"></span>
+                    <span id="parallelogram1"></span>
+                    <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
@@ -104,12 +91,16 @@
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
+                    <span id="parallelogram1"></span>
+                    <span id="parallelogram1"></span>
                 </div>
                 <div class="tech-strength">
                     <p class="tech-name">HTML</p>
                     <span id="parallelogram2"></span>
                     <span id="parallelogram2"></span>
                     <span id="parallelogram2"></span>
+                    <span id="parallelogram1"></span>
+                    <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
                     <span id="parallelogram1"></span>
@@ -130,7 +121,7 @@
             <div>
                 <ul class="layui-nav layui-nav-tree layui-inline" id="mobile-res" lay-filter="demo">
                     <li class="layui-nav-item" style="float:right;">
-                        <a href="javascript:;" style="float:right;"><img src="./xl.PNG" class="layui-nav-img">☰</a>
+                        <a href="javascript:;" style="float:right;"><img src="./img/xl.PNG" class="layui-nav-img">☰</a>
                         <dl class="layui-nav-child">
                             <dd><a href="">Core Skills</a></dd>
                             <dd><a href="">My Blog</a></dd>
@@ -143,9 +134,15 @@
                 </ul>
             </div>
             <!-- 内容主体区域 -->
-            <div class="layui-bg-cyan" id="main-area" style="padding: 30px;">
+            <div class="layui-bg-cyan" id="main-area" style="padding: 30px; height:930px;">
+                <div class="left-bar">
+
+                </div>
             </div>
-            <div style="background-color:#2F4056; height:90px"></div>
+            <div class="layui-footer layui-bg-cyan">
+                <!-- 底部固定区域 -->
+                Xin Luo ©Copyright 2017
+            </div>
         </div>
 
 

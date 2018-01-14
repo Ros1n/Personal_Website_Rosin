@@ -1,3 +1,10 @@
+    body{
+        height:100vh;
+    }
+
+    left-bar{
+        height:100vh;
+    }
 
 	.intro, .techs, .interest{
 		font-family: 'Playfair Display', serif;
@@ -27,6 +34,7 @@
 
 	.layui-side{
 		right: 0;
+        height: 100vh;
 	}
 
 	img{
@@ -144,7 +152,6 @@
 		display: block;
 		overflow: auto;
 		z-index: 1002;
-		height: 100%;
 	}
 
     #mobile-res{
@@ -160,6 +167,65 @@
 
     code{
     	background-color: #bdcadb;
+    }
+
+    div#resume{
+        background: url("../img/codecode.jpg");
+        background-color: rgba(0,0,0,.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:10em;
+        text-align: center!important;
+        padding: 0.3em;
+    }
+
+    div.contact{
+        background-color:#2F4056; 
+        height:12.9em; 
+        text-align:center!important;
+        padding: 0.3em;
+    }
+
+.trigger {
+    position: relative;
+    height: 3.4em;
+    width: 3.4em;
+    display: inline-block;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 5;
+    margin:0.1em;
+    }
+
+.trigger_span {
+    overflow: hidden;
+    position: absolute;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    }
+
+    .trigger_span, .trigger_span i {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        z-index: -5;
+        font-size: 1.72em;
+    }
+
+
+    .trigger a:visited{
+        color:#F1505A;
+        text-decoration:none; 
+    }
+
+    .contact i{
+        color:#fff!important;
     }
 
 
