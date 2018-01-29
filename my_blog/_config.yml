@@ -99,6 +99,6 @@ jsonContent:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Ros1n/Personal_Website_Rosin.git
+  repo: https://github.com/Ros1n/My_Blog.git
   branch: master
 

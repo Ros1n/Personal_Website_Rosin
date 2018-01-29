@@ -13,7 +13,8 @@
 
 	.p-title{
 		font-family: 'Playfair Display', serif;
-		font-size: 30px;
+		font-size: 35px;
+        font-weight: bold;
 	}
 
  	.layui-header{
@@ -133,6 +134,11 @@
 		color:#009688;
 	}
 
+    a{
+        color:#009688;
+        font-size: 20px;
+    }
+
 	p{
 		display: block;
 		position: relative;
@@ -170,6 +176,7 @@
     }
 
     div#resume{
+        display: block;
         background: url("../img/codecode.jpg");
         background-color: rgba(0,0,0,.5);
         background-repeat: no-repeat;
@@ -226,6 +233,47 @@
 
     .contact i{
         color:#fff!important;
+    }
+
+    .post-link {
+        display: block;
+        font-size: 30px;
+        color: #009688;
+    }
+
+    .post-meta {
+        font-size: 14px;
+        color: #828282
+    }
+
+    .post-list li{
+        margin: 10px;
+    }
+
+    .block{
+        display: block;
+        padding: 3vh;
+        background-color: #bdcadb;
+        position: relative;
+        width: 70vh;
+        height: 60vh;
+        margin: 2vh;
+    }
+
+    #darked{
+        color: #2F4056!important;
+        font-size: 23px;
+    }
+
+    .poster{
+        position: relative;
+        width: 20vh;
+        height: 30vh;
+    }
+
+    .sep-block{
+        margin:10px;
+        column-count:2;
     }
 
 
