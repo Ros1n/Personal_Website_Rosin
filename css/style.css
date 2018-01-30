@@ -276,6 +276,10 @@
         column-count:2;
     }
 
+    .layui-footer{
+        position: relative!important;
+    }
+
 
 	@media only screen and (max-width:  768px){
 		#horizontal-sidebar{
