@@ -133,30 +133,30 @@
                 <div class="left-bar">
                     <p class="p-title" id="emphasis" style="font-weight:bold">Build a JavaScript Snake Game</p>
                     <br />
-                    <p>After a period of JavaScript study, I think its time to pick some simple projects to practice the knowledge I learned.</p>
+                    <p>After finish learning JavaScript in university, I think it's time to pick some simple projects to reinforce the knowledge and programming skills.</p>
                     <br />
-                    <p>To successfully implementing a Snake Game, I have learned tutorials in YouTube and went through some blogs telling of how they developed Snake Game in totally different ways. 
-                    I learned the advantage of their code, and modified my own code, and finally this is how I got. <a id="emphasis" href="https://github.com/Ros1n/Snake-Game"> Click here.</a></p>
+                    <p>To successfully implementing a Snake Game, I have watched tutorials in YouTube and read some blogs of developing Snake Game in different way. 
+                    I learned the best part of their code, and finally this is what I got. <a id="emphasis" href="https://github.com/Ros1n/Snake-Game"> GitHub Code</a></p>
                     <br />
-                    <p>For the learner who has solid knowledge of JavaScript, what he should do first is learning the HTML Canvas (through <a id="emphasis" href="https://www.w3schools.com/html/html5_canvas.asp" > W3C</a>). 
-                    after 3 minutes and he get understanding of Canvas, he should start to design or think of the process of Game without read others code, or said, how to design a Snake Game run by JavaScript? </p>
+                    <p>For the learner who has basic knowledge of JavaScript, what he should do first is learning the HTML Canvas (through <a id="emphasis" href="https://www.w3schools.com/html/html5_canvas.asp" > W3C</a>). 
+                    after 3 minutes he has no trouble reading code about Canvas, he should start to design the algorithm of Snake Game (maybe write down the pseudo code) without read blog's code, or think of the question, how to let a Snake Game successfully run by JavaScript? </p>
                     <br />
-                    <p>First, we should initialise/draw a play field in the webpage with Canvas, there is basically 2 methods, can be implemented by either draw a HTML table in the webpage or use coordinate directly. 
-                    Then we can set up the random function of candy’s appearance in the play field, this is simple, the key point is not to occupy same grid/pixel as snake do and not exceed the edges of play field. 
-                    Then we come toward the core part, or said the hard part, how to make the Game run. Based on the functions given by JavaScript original package, we can used setInterval (interval, function()) to refresh the play field every interval time. 
-                    If the interval is short enough, we can observed the snake dynamically moved in the playfield. 
-                    We assume the length of snake is N, the problem is, with the fixed frequency (interval), how to make snake act like move forward (fill the grid next to the snake and eliminate grid after its tail)? 
-                    The solution is, we can treat snake as array, and in every interval, we update its array elements (based on coordinate), we can used shift(), unshift() methods. 
+                    <p>First, initialise/draw a play field for Snake Game in the webpage run by Canvas, basically 2 methods, can be implemented by drawing a HTML table in the webpage that every table cell represents a grid in game, or use coordinate axis directly. 
+                    The next step, we set up the random function of candy’s appearance in the play field, this is simple, the key point is not to occupy same grid/pixel as snake do and not exceed the edges of play field. 
+                    Then we come towards the core part, or said the hard part, how to make the Game run. Based on the functions given by JavaScript original package, we can used setInterval (interval, function()) to refresh the play field every interval time and run the given function. 
+                    If the interval is short enough, we can observe the snake dynamically moved in the playfield. 
+                    Now let's begin. We assume the length of snake is N, one problem is, with the fixed frequency (interval), how to make snake act like move forward (fill the grid next to the snake and eliminate grid after its tail)? 
+                    The solution is, treat snake as array, and in every interval, we update its array elements (update its coordinate), we can used shift(), unshift() methods to do it. 
                     If we “eat” the candy, we should also update snake’s length for next interval. That’s roughly how the Snake Game run.</p>
                     <br />
                     <img src="../img/snake2.PNG" style="height:300px; width:300px;">
-                    <p>Here are references to the tutorials or code that I recommend to used in your projects:</p>
+                    <p>Here are references to the tutorials or code that I recommend to learn before you start your projects:</p>
                     <br />
                     <a id="emphasis" href="http://www.competa.com/blog/how-to-build-a-snake-game-using-javascript-and-html5-canvas/">Build Snake Game with full tutorials</a>
                     <br />
                     <a id="emphasis" href="https://github.com/captbaritone/snake.js">90 lines well-structured and learner-friendly Snake Game Program</a>
                     <br />
-                    <a id="emphasis" href="https://www.youtube.com/watch?v=xGmXxpIj6vs&t=350s">69 lines (include webpage) implementing Snake Game but hard to understand</a>
+                    <a id="emphasis" href="https://www.youtube.com/watch?v=xGmXxpIj6vs&t=350s">69 lines (include web structure) implementing Snake Game but hard to understand</a>
                     <br />
 
                 </div>
