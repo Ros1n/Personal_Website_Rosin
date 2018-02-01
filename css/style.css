@@ -54,7 +54,7 @@
 		background-color: #23262E;
 		z-index: 500;
 		width: 22%;
-		height: auto;
+		height: 100%;
 		overflow: hidden;
 	}
 
@@ -156,8 +156,11 @@
 
 	#main-area{
 		display: block;
-		overflow: auto;
+		overflow-x: hidden;
+        overflow-y: hidden;
 		z-index: 1002;
+        height: 100%;
+        padding: 30px;
 	}
 
     #mobile-res{
@@ -280,6 +283,18 @@
         position: relative!important;
     }
 
+    .image-group{
+        display: block;
+    }
+
+    .layui-footer{
+        left:0!important;
+    }
+
+    .layui-body{
+        height:auto;
+    }
+
 
 	@media only screen and (max-width:  768px){
 		#horizontal-sidebar{
@@ -298,8 +313,9 @@
             float: right;
             width: 100%;
         }
-		#main-area{
-			margin-right: 0;
-		}
+        #main-area {
+            margin-right: 0;
+
+        }
 
 	}
