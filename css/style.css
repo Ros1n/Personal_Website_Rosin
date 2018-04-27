@@ -172,6 +172,7 @@
 		font-family:  'Roboto Condensed', "Times New Roman", Georgia, Serif;
     	color: #23262E;
     	font-size: 20px;
+        padding:.1rem!important;
     }
 
     code{
