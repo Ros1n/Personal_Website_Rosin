@@ -14,6 +14,7 @@
     <link href="../css/fontello.css" type="text/css" rel="stylesheet">
     <!--<link href="./css/icons.css" type="text/css" rel="stylesheet">-->
     <link rel="stylesheet" href="../css/entypo.css">
+    <script type="text/javascript" src="../js/modules/snake.js"></script>
 
 </head>
 
@@ -104,7 +105,10 @@
                 </div>
 
                 <br>
-                <div id="calendar"></div>
+                <div style="margin:.1rem;">
+                    <canvas id="mc" width="300" height="300">this is canvas</canvas>
+                    <script language="javascript">runSnake()</script>
+                </div>
                 <br>
                 <div id="animation">
                     <p>Try to feed the rat with your mouse!</p>
@@ -135,7 +139,7 @@
                         If you are interested after reading through my Resume or webiste, please contact me through my email or LinkedIn.
                     </p>
 
-                </div>
+            </div>
             </div>
             <div class="layui-footer layui-bg-cyan">
                 <!-- 底部固定区域 -->
