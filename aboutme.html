@@ -21,12 +21,12 @@
     <div class="layui-layout layui-layout-admin">
         <!-- banner implement -->
         <header class="main-header layui-bg-cyan">
-            <div class="layui-logo" style="font-weight: bold; font-size: 300%">Xin Luo</div>
+           <div class="layui-logo" style="font-weight: bold; font-size: 300%">Xin Luo</div>
         </header>
 
         <!-- header implement -->
         <div class="layui-header">
-            <div class="layui-logo" style="display: block;"><img src="./img/xl.PNG" class="layui-nav-img" style="height:38px; width:38px;">This is My Website!</div>
+           <div class="layui-logo" style="display: block;"><img src="./img/xl.PNG" class="layui-nav-img" style="height:38px; width:38px;">This is My Website!</div>
             <!-- vertical-sidebar implement -->
             <ul class="layui-nav layui-layout-left" lay-filter="">
                 <li class="layui-nav-item" lay-filter="index.html"><a href="index.html">Main Page</a></li>
@@ -130,7 +130,7 @@
                 <div class="left-bar">
                     <div class="sep-block">
                     <div>
-                        <img src="./img/profile.png" style="height:61vh; width: 50vh;"/>
+                        <img src="./img/profile.png" style="max-height:61vh; max-width: 25vw; height:100%; width:100%;"/>
                     </div>
                     <div class="block" style="float:right">
                         <p class="p-title" id="emphasis">About Me</p>
@@ -168,7 +168,7 @@
                     </div>
                     <div class="sep-block">
                         <div class="image-group">
-                            <img src="./img/three-body.jpg" style="height:62vh; width: 70vh; float:left;" />
+                            <img src="./img/three-body.jpg" style="height:62vh; width: 35vw; height:100%; width:100%; float:left;" />
                         </div>
                         <div class="block" style="float: right">
                             <p class="p-title" id="emphasis">Favourite Books</p>
@@ -200,7 +200,7 @@
                                 </ul>
                             </p>
                         </div>
-                        <div class="image-group">
+                        <div class="image-group" >
                             <img class="poster" src="./img/clas3.jpg"/>
                             <img class="poster" src="./img/madoka.jpg" />
                             <img class="poster" src="./img/eva.jpg" />
@@ -225,7 +225,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/f28bb6aad2.js"></script>
-    <script src="../js/modules/rem.js"></script>
+    <script src="./js/modules/rem.js"></script>
+
     <script>
         layui.config({
             base: './js/modules/' //你存放新模块的目录，注意，不是layui的模块目录
