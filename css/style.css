@@ -3,7 +3,7 @@
     }
 
     left-bar{
-        height:100vh;
+        min-height:100vh;
     }
 
 	.intro, .techs, .interest{
@@ -295,6 +295,10 @@
         height:auto;
     }
 
+    .flex-img{
+        width:100%;
+        height:100%;
+    }
 
 	@media only screen and (max-width:  768px){
 		#horizontal-sidebar{
@@ -306,6 +310,23 @@
         .header-details{
             display:none;
         }
+
+        div#resume{
+            display:none;
+        }
+
+        div#contact{
+            display:none;
+        }
+
+        p#welcome{
+            display:none;
+        }
+
+        .main-background{
+            display:none;
+        }
+
         #mobile-res {
             position: relative;
             display: inline-block;
